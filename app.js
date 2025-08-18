@@ -10,6 +10,9 @@ function agregarAmigo(){
         amigos.push(amigoInput);
     }
     document.getElementById('amigo').value = '';
+
+
+    actualizarLista()
 }
 
 function actualizarLista(){ 
@@ -22,4 +25,17 @@ for (const nombre of amigos){
     li.textContent = nombre;
     ul.appendChild(li);
 }
+}
+
+function sortearAmigo(){
+
+    if (amigos.length === 0 ){
+        alert("No hay ningun nombre para sortear");
+        return;
+    }
+
+    let indice = Math.floor(Math.random()* amigos.length);
+    let amigoElegido = amigos[indice];
+    
+    document.querySelector('#resultado').innerHTML = 'Amigo sorteado es: ' + amigoElegido; 
 }
