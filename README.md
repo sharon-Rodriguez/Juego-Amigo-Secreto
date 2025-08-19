@@ -30,7 +30,9 @@ Aplicación web simple en **JavaScript** que permite:
 ---
 
 ##  Vista previa
-<img width="1362" height="634" alt="image" src="https://github.com/user-attachments/assets/5bf45b0e-9b14-468f-8da8-9a564e588738" />
+
+![Amigo Secreto Demo](demo.gif)
+
  
 
 ---
