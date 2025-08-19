@@ -31,7 +31,8 @@ Aplicación web simple en **JavaScript** que permite:
 
 ##  Vista previa
 
-![Amigo Secreto Demo](demo.gif)
+
+![Demo](Demo.gif)
 
  
 
